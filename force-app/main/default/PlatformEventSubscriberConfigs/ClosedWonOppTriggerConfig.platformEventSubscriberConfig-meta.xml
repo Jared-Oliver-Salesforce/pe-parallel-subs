@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PlatformEventSubscriberConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>ClosedWonOppTriggerConfig</masterLabel>
+    <platformEventConsumer>ClosedWonOppTrigger</platformEventConsumer>
+    <numPartitions>3</numPartitions>
+    <partitionKey>Closed_Won_Opp__e.AccountId__c</partitionKey>
+    <user>jared.henning@resilient-wolf-lbna12.com</user>
+</PlatformEventSubscriberConfig>
